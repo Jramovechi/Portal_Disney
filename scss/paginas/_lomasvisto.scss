@@ -1,0 +1,18 @@
+/* Seccion lo mas visto */
+button div img {
+    width: 500px; }
+
+/* Seccion Otras Peliculas */
+
+.glidContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.glidContainer div ul li img{
+    @include size(320px, 400px);
+    object-fit:fill;
+
+}

@@ -1,0 +1,81 @@
+/*Imagenes con efecto HOVER*/
+
+.contenedor__fondo{
+    background-image: url(/image/)
+}
+
+.contenedor__hover{
+    @include size(100%, 700px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hover__figure{
+    position: relative;
+    @include size(70%, 600px);
+    overflow: hidden;
+    @extend %boderShadow;
+    cursor: pointer;
+}
+
+.hover__img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.hover__capa{
+    position:absolute;
+    top: 0;
+    @include size(100%, 100%);
+    background: rgba(0,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.hover__figure:hover > .hover__capa{
+    opacity: 1;
+    visibility: visible;
+}
+.hover__figure:hover > .hover__capa h3{
+    margin-top: 20%;
+}
+
+.hover__figure:hover > .hover__img{
+    transform: scale(1.2);
+}
+
+.hover__capaTitulo{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;
+    transition: all 500ms ease-out;
+}
+.hover__capaTexto{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 500ms ease-out;
+}
+
+.contenedor__hover--doble{
+    @include size(45%, 200px);
+
+}
+.hover__figure--doble{
+    @include size(600px, 300px);
+}
+
+.contenedor__hover--triple{
+    height: 400px;
+
+}
+.hover__figure--triple{
+    @include size(600px, 350px);
+}
+

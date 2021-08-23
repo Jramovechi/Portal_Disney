@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* Colores */
+.c-celesteClaro {
+  color: #F8F8FD; }
+
+.c-celeste {
+  color: #F8F8FD; }
+
+.c-azul {
+  color: #6FBCEB; }
+
+.c-blanco {
+  color: white; }
+
+.c-negro {
+  color: black; }
+
+.bg-celesteClaro {
+  background-color: #F8F8FD; }
+
+.bg-celeste {
+  background-color: #F8F8FD; }
+
+.bg-azul {
+  background-color: #6FBCEB; }
+
+/*MIXIN GENERICO*/
+/*BOTON GENERICO*/
+.boton, .boton__aRight, .boton__aLeft {
+  border: none;
+  min-width: 80px;
+  height: 35px;
+  padding: 0 30px;
+  color: #fff;
+  border-radius: 100px;
+  text-decoration: none;
+  background: #6FBCEB;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease all; }
+
+.boton__aRight {
+  position: absolute;
+  right: 20px;
+  bottom: -20px; }
+
+.boton__aLeft {
+  position: absolute;
+  left: 20px;
+  bottom: -20px; }
+
+/*BORDES GENERICO*/
+.contenedor__card, .trailer__video, .novedades__article, .hover__figure {
+  border-radius: 20px;
+  box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main {
+  max-width: 1600px;
+  max-height: 100%; }
+
+/* Encabezado ------------------------*/
+/* Navegador */
+nav a img {
+  width: 150px; }
+
+/* Buscador */
+.box__buscador {
+  padding: 5px 1px 5px 25px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 15px;
+  color: #444;
+  border: 3px solid #000000;
+  background: #fff url("search-icon.png") no-repeat 5px center;
+  width: 100px;
+  transition: all 1s; }
+
+.box__buscador:hover {
+  width: 200px;
+  background-color: #fff;
+  border-color: #000000;
+  box-shadow: 0 0 2px; }
+
+/* Cuerpo ---------------------------- */
+/* Seccion Portada */
+/* Carrusel */
+#imgCarrusel img {
+  width: 100%;
+  height: 58vh;
+  margin-top: 20px; }
+
+/* Seccion Lo más visto */
+/*CARDS*/
+.contenedor__card {
+  position: relative; }
+
+.card__img {
+  width: 100%;
+  height: 200px; }
+
+.card__textos {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.card__titulo {
+  font-size: 25px; }
+
+.card__calificacion {
+  display: flex;
+  justify-content: center; }
+
+/* Seccion Aside */
+.contenedor__gif--Mickey {
+  background-image: url(/image/logoDisney2.gif);
+  background-repeat: no-repeat;
+  background-position: right; }
+
+.contenedor__gif--Minnie {
+  background-image: url(/image/logoMinnie.gif);
+  background-repeat: no-repeat;
+  background-position: left; }
+
+/*TEXTOS*/
+.trailer__textos {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+.trailer__titulo {
+  font-size: 35px;
+  font-weight: bold; }
+
+/*TRAILERS*/
+.trailers {
+  width: 100%;
+  padding: 20px 0; }
+
+.trailer__video {
+  width: 600px;
+  height: 300px;
+  background-color: #fff;
+  padding: 15px; }
+
+/* Seccion Noticias */
+.novedades__separador {
+  margin-bottom: 10px; }
+
+.novedades__titulo {
+  font-weight: bold; }
+
+/*efecti hover*/
+.novedades__article {
+  width: 280px;
+  height: 320px;
+  display: flex;
+  flex-direction: column; }
+
+.novedades__article:hover {
+  background: #b7e0fc;
+  transform: scale(1, 1.05);
+  transition: background-color 1s; }
+
+.novedades__img {
+  background-image: var(--image);
+  width: 100%;
+  height: 175px;
+  background-position: center top;
+  background-size: cover;
+  border-radius: 1em 1em 0 0; }
+
+.novedades__cardText {
+  height: 70px;
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: center; }
+
+/* Banner LOGOS */
+/* Footer */
+footer {
+  width: 100%;
+  background-image: url(/image/background-footer.svg); }
+
+/* Seccion lo mas visto */
+button div img {
+  width: 500px; }
+
+/* Seccion Otras Peliculas */
+.glidContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px; }
+
+.glidContainer div ul li img {
+  width: 320px;
+  height: 400px;
+  object-fit: fill; }
+
+/*Imagenes con efecto HOVER*/
+.contenedor__fondo {
+  background-image: url(/image/); }
+
+.contenedor__hover {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hover__figure {
+  position: relative;
+  width: 70%;
+  height: 600px;
+  overflow: hidden;
+  cursor: pointer; }
+
+.hover__img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out; }
+
+.hover__capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 103, 123, 0.6);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center; }
+
+.hover__figure:hover > .hover__capa {
+  opacity: 1;
+  visibility: visible; }
+
+.hover__figure:hover > .hover__capa h3 {
+  margin-top: 20%; }
+
+.hover__figure:hover > .hover__img {
+  transform: scale(1.2); }
+
+.hover__capaTitulo {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing: 2px;
+  transition: all 500ms ease-out; }
+
+.hover__capaTexto {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 500ms ease-out; }
+
+.contenedor__hover--doble {
+  width: 45%;
+  height: 200px; }
+
+.hover__figure--doble {
+  width: 600px;
+  height: 300px; }
+
+.contenedor__hover--triple {
+  height: 400px; }
+
+.hover__figure--triple {
+  width: 600px;
+  height: 350px; }

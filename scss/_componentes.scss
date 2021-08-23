@@ -1,0 +1,49 @@
+
+/*MIXIN GENERICO*/
+
+@mixin size($ancho, $alto){
+    width: $ancho;
+    height: $alto;
+}
+
+
+/*BOTON GENERICO*/
+
+%boton{
+    border: none;
+    min-width: 80px;
+    height: 35px;
+    padding: 0 30px;
+    color: #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    background: #6FBCEB;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease all;
+}
+.boton{
+    @extend %boton;
+}
+.boton__aRight{
+    @extend %boton;
+    position: absolute;
+    right: 20px;
+    bottom: -20px;
+}
+
+.boton__aLeft{
+    @extend %boton;
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+}
+
+/*BORDES GENERICO*/
+
+%boderShadow{
+    border-radius: 20px;
+    box-shadow: 0 0 32px -16px rgba(0, 0, 0, .5);
+} 
+
