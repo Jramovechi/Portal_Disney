@@ -189,6 +189,10 @@ footer {
   width: 100%;
   background-image: url(/image/background-footer.svg); }
 
+.iconos__footer {
+  font-size: 28px;
+  color: #6FBCEB; }
+
 /* Seccion lo mas visto */
 button div img {
   width: 500px; }
