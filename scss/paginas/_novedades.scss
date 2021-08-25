@@ -79,3 +79,18 @@
     @include size(600px, 350px);
 }
 
+/*PAGINAS COMPLEMENTARIAS NOVEDADES*/
+
+.contenedor__paginaNovedades{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.img__novedades{
+    width: 100%;
+}
+
