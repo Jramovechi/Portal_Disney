@@ -145,7 +145,7 @@ nav a img {
 
 .trailer__video {
   width: 600px;
-  height: 300px;
+  height: 350px;
   background-color: #fff;
   padding: 15px; }
 
@@ -284,6 +284,7 @@ button div img {
   width: 600px;
   height: 350px; }
 
+/*PAGINAS COMPLEMENTARIAS NOVEDADES*/
 .contenedor__paginaNovedades {
   width: 70%;
   margin: auto;
