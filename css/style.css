@@ -197,6 +197,33 @@ footer {
 button div img {
   width: 500px; }
 
+.seccion__acordeon {
+  box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5); }
+
+.acordeon__imgContenedor {
+  padding: 20px;
+  border: 1px #6FBCEB;
+  border-radius: 20px;
+  box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5); }
+
+.acordeon__texto {
+  padding: 65px;
+  border: 1px #6FBCEB;
+  border-radius: 20px;
+  box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5); }
+
+.acordeon__footer {
+  background-image: url(/image/backgroundAcordeon.jpg); }
+
+.acordeon__textoFooter {
+  width: 800px;
+  color: black;
+  background-color: #F8F8FD;
+  margin: auto;
+  border: 1px #6FBCEB;
+  border-radius: 20px;
+  box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5); }
+
 /* Seccion Otras Peliculas */
 .glidContainer {
   width: 100%;

@@ -9,13 +9,15 @@
     <meta name="keywords" content="DISNEY, DISNEY LATINO, FORMULARIO, CONTACTO, INFORMACION">
     
     <link rel="icon" href="../image/iconojpg.jpg">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/glide.core.min.css">
     <link rel="stylesheet" href="../css/glide.theme.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
@@ -78,96 +80,92 @@
 
         <section>
 
-            <div class="accordion" id="accordionExample">
+            <div class="seccion__acordeon accordion" id="accordionExample">
 
-                <div class="accordion-item col-12 col-lg-12">
+                <div class="contenedor__acordeon accordion-item col-12 col-lg-12">
 
-                        <h2 class="accordion-header" id="headingOne">
+                    <h2 class="acordeon__body accordion-header" id="headingOne">
 
-                            <button class="accordion-button d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <button class="acordeon__header accordion-button d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             
-                                <div>
-                                    <img src="../image/card-h-5.jpg" class="img-fluid rounded-start" alt="acordeonFrozen">
-                                </div>
+                            <div class="acordeon__imgContenedor">
+                                <img class="acordeon__img img-fluid" src="../image/card-h-5.jpg" class="img-fluid rounded-start" alt="acordeonFrozen">
+                            </div>
 
-                                <div class="d-flex flex-column justify-content-between align-items-center c-negro mx-5">
-                                    <h5 class="card-title">Frozen</h5>
-                                    <p class="card-text text-center">Viaja a los bosques embrujados y los mares oscuros que se extienden más allá de los límites de su reino para descubrir quién es en realidad.</p>
-                                    <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
+                            <div class="acordeon__texto d-flex flex-column justify-content-between align-items-center c-negro mx-5">
+                                <h5 class="card-title fs-3 fw-bolder">Fro<span class="c-azul">zen</span></h5>
+                                <p class="card-text text-body fs-6 fst-italic">Viaja a los bosques embrujados y los mares oscuros que se extienden más allá de los límites de su reino para descubrir quién es en realidad.</p>
+                                <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
                                 
-                                    <div class="card__calificacion mx-2">
-                                        <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
-                                        <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
-                                        <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
-                                        <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
-                                        <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
-                                    </div>
-
+                                <div class="card__calificacion mx-2">
+                                    <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
+                                    <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
+                                    <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
+                                    <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
+                                    <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
                                 </div>
 
-                                
-                        
-                            </button>
-
-                        </h2>
-
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">                            
-                            
-                            <div class="accordion-body d-flex">
-                                
-                                <div>
-
-                                    <iframe class="trailer__video" src="https://www.youtube.com/embed/MrvnCTpMFkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                                </div>
-
-                                <div class="d-flex flex-column ps-5">
-                                    <div>
-                                        <img width="300" src="../image/card-h-5.jpg" class="img-fluid rounded-start" alt="acordeonFrozen2">
-                                    </div>
-
-                                    <div>
-                                        <h5>
-                                            Frozen
-                                        </h5>
-
-                                        <p>
-                                            Duracion: xxxxxx
-                                        </p>
-                                        <p>
-                                            Fecha de Estreno: xxxxxx
-                                        </p>
-                                        <p>
-                                            Género: xxxxxxx
-                                        </p>
-                                        <p>
-                                            Dirigido por: xxxx
-                                        </p>
-                                        <p>
-                                            Elenco: xxxxx
-                                        </p>
-                                    </div>
-
-                                </div>
-                            
                             </div>
                         
+                        </button>
+
+                    </h2>
+
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">                            
+                            
+                        <div class="acordeon__footer accordion-body d-flex">
+                                
+                            <div class="acordeon__footer my-auto">
+
+                                <iframe class="trailer__video" src="https://www.youtube.com/embed/MrvnCTpMFkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                            </div>
+
+                            <div class="acordeon__textoFooter d-flex flex-column ps-5">
+
+                                <div class="fst-italic">
+                                    <h5 class=" fs-4 fw-bold">
+                                        Fro<span class="c-azul">zen</span>
+                                    </h5>
+
+                                    <p>
+                                        <span class="c-azul">Duracion:</span> 1 h 47 min 
+                                    </p>
+                                    <p>
+                                        <span class="c-azul">Fecha de Estreno:</span> 2019
+                                    </p>
+                                    <p>
+                                        <span class="c-azul">Género:</span> Familiar, Fantasía, Animación, Acción y aventura, Musical
+                                    </p>
+                                    <p>
+                                        <span class="c-azul">Dirigido por:</span> Chris Buck, Jennifer Lee
+                                    </p>
+                                    <p>
+                                        <span class="c-azul">Elenco:</span> Kisten Bell, Idina Menzel, Josh Gad, Jonathan Groff, Sterling K. Brown, Evan Rachel Wood
+                                    </p>
+                                </div>
+
+                            </div>
+                            
                         </div>
+                        
+                    </div>
+
                 </div>
 
-                <div class="accordion-item col-12 col-lg-12">
+                <div class="contenedor__acordeon accordion-item col-12 col-lg-12">
                     
-                    <h2 class="accordion-header" id="headingTwo">
+                    <h2 class="acordeon__body accordion-header" id="headingTwo">
                         
-                        <button class="accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <button class="acordeon__header accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             
-                            <div>
-                                <img src="../image/card-h-2.jpg" class="img-fluid rounded-start" alt="acordeonStarWars">
+                            <div class="acordeon__imgContenedor">
+                                <img class="acordeon__img img-fluid" src="../image/card-h-2.jpg" class="img-fluid rounded-start" alt="acordeonStarWars">
                             </div>
                         
-                            <div class="d-flex flex-column justify-content-between align-items-center c-negro mx-5">
-                                <h5 class="card-title">Star Wars</h5>
-                                <p class="card-text text-center">Finn y Poe guían a la Resistencia para detener los planes de la Primera Orden para formar un nuevo imperio, mientras Rey anticipa un enfrentamiento inevitable con Kylo Ren.</p>
+                            <div class="acordeon__texto d-flex flex-column justify-content-between align-items-center c-negro mx-5">
+                                <h5 class="card-title fs-3 fw-bolder">Star <span class="c-azul">Wars</span></h5>
+                                <p class="card-text text-body fs-6 fst-italic">Finn y Poe guían a la Resistencia para detener los planes de la Primera Orden para formar un nuevo imperio, mientras Rey anticipa un enfrentamiento inevitable con Kylo Ren.</p>
                                 <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
                             
                                 <div class="card__calificacion mx-2">
@@ -175,69 +173,70 @@
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
-                                    <span class="c-azul"><i class="bi bi-star-half mx-1"></i></i></span>
+                                    <span class="c-azul"><i class="bi bi-star-half mx-1"></i></span>
                                 </div>
                             
                             </div>
 
                         </button>
+
                     </h2>
 
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         
-                        <div class="accordion-body d-flex">
-                            <div>
+                        <div class="acordeon__footer accordion-body d-flex">
+
+                            <div class="acordeon__footer my-auto">
 
                                 <iframe class="trailer__video" src="https://www.youtube.com/embed/x7nKsvvsSto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
 
-                            <div class="d-flex flex-column ps-5">
-                                <div>
-                                    <img width="300" src="../image/card-h-2.jpg" class="img-fluid rounded-start" alt="acordeonStarWars2">
-                                </div>
+                            <div class="acordeon__textoFooter d-flex flex-column ps-5">
 
-                                <div>
-                                    <h5>
-                                        Star Wars
+                                <div class="fst-italic">
+                                    <h5 class=" fs-4 fw-bold AOS flip-left">
+                                        Star <span class="c-azul">Wars</span>
                                     </h5>
 
                                     <p>
-                                        Duracion: xxxxxx
+                                        <span class="c-azul">Duracion:</span> 2 h 22 min 
                                     </p>
                                     <p>
-                                        Fecha de Estreno: xxxxxx
+                                        <span class="c-azul">Fecha de Estreno:</span> 2019
                                     </p>
                                     <p>
-                                        Género: xxxxxxx
+                                        <span class="c-azul">Género:</span> Ciencia ficción, Acción y aventura
                                     </p>
                                     <p>
-                                        Dirigido por: xxxx
+                                        <span class="c-azul">Dirigido por:</span> J. J. Abrams
                                     </p>
                                     <p>
-                                        Elenco: xxxxx
+                                        <span class="c-azul">Elenco:</span> Carrie Fisher, Mark Hamill, Adam Driver, Daisy Ridley, John Boyega, Oscar Isaac
                                     </p>
                                 </div>
                                 
                             </div>
+
                         </div>
+
                     </div>
 
                 </div>
 
-                <div class="accordion-item">
+                <div class="contenedor__acordeon accordion-item">
                     
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 class="acordeon__body accordion-header" id="headingThree">
 
-                        <button class="accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <button class="acordeon__header accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             
-                            <div>
-                                <img src="../image/card-h-3.jpg" class="img-fluid rounded-start" alt="acordeonMosterInc">
+                            <div class="acordeon__imgContenedor">
+                                <img class="acordeon__img img-fluid" src="../image/card-h-3.jpg" class="img-fluid rounded-start" alt="acordeonMosterInc">
                             </div>
 
-                            <div class="d-flex flex-column justify-content-between align-items-center c-negro mx-5">
-                                <h5 class="card-title">Moster Inc</h5>
-                                <p class="card-text text-center">En sus días universitarios, la feroz rivalidad entre Mike Wazowski y Sulley provoca que ambos sean expulsados del Programa de Sustos de la Universidad de Monstruos.</p>
+                            <div class="acordeon__texto d-flex flex-column justify-content-between align-items-center c-negro mx-5">
+                                <h5 class="card-title fs-3 fw-bolder">Moster <span class="c-azul">Inc</span></h5>
+                                <p class="card-text text-body fs-6 fst-italic">En sus días universitarios, la feroz rivalidad entre Mike Wazowski y Sulley provoca que ambos sean expulsados del Programa de Sustos de la Universidad de Monstruos.</p>
                                 <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
                             
                                 <div class="card__calificacion mx-2">
@@ -251,62 +250,66 @@
                             </div>
                             
                         </button>
+
                     </h2>
 
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-flex">
-                            <div>
+                        
+                        <div class="acordeon__footer accordion-body d-flex">
+                        
+                            <div class="acordeon__footer my-auto">
 
                                 <iframe class="trailer__video" src="https://www.youtube.com/embed/6-hRvF7suLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
 
-                            <div class="d-flex flex-column ps-5">
-                                <div>
-                                    <img width="300" src="../image/card-h-3.jpg" class="img-fluid rounded-start" alt="acordeonMosterInc2">
-                                </div>
+                            <div class="acordeon__textoFooter d-flex flex-column ps-5">
 
-                                <div>
-                                    <h5>
-                                        Moster Inc
+                                <div class="fst-italic">
+                                    <h5 class=" fs-4 fw-bold">
+                                        Moster <span class="c-azul">Inc</span>
                                     </h5>
 
                                     <p>
-                                        Duracion: xxxxxx
+                                        <span class="c-azul">Duracion:</span> 1 h 44 min 
                                     </p>
                                     <p>
-                                        Fecha de Estreno: xxxxxx
+                                        <span class="c-azul">Fecha de Estreno:</span> 2013
                                     </p>
                                     <p>
-                                        Género: xxxxxxx
+                                        <span class="c-azul">Género:</span> La aventura de crecer, Familiar, Comedia, Acnimación, Amistad
                                     </p>
                                     <p>
-                                        Dirigido por: xxxx
-                                    </p>
+                                        <span class="c-azul">Dirigido por:</span> Dan Scanlon 
                                     <p>
-                                        Elenco: xxxxx
+                                        <span class="c-azul">Elenco:</span> Billy Crystal, John Goodman, Steve Buscemi, Helen Mirren, Peter Sohn, Joel Murray
                                     </p>
                                 </div>
                                 
                             </div>
+
                         </div>
 
                     </div>
+
                 </div>
 
-                <div class="accordion-item">
+                <div class="contenedor__acordeon accordion-item">
                     
-                    <h2 class="accordion-header" id="headingFour">
+                    <h2 class="acordeon__body accordion-header" id="headingFour">
                         
-                        <button class="accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <button class="acordeon__header accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         
-                            <div>
-                                <img src="../image/card-h-4.jpg" class="img-fluid rounded-start" alt="acordeonAvenger">
+                            <div class="acordeon__imgContenedor">
+
+                                <img class="acordeon__img img-fluid" src="../image/card-h-4.jpg" class="img-fluid rounded-start" alt="acordeonAvenger">
+                            
                             </div>
 
-                            <div class="d-flex flex-column justify-content-between align-items-center c-negro mx-5">
-                                <h5 class="card-title">Avenger</h5>
-                                <p class="card-text text-center">Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.</p>
+                            <div class="acordeon__texto d-flex flex-column justify-content-between align-items-center c-negro mx-5">
+
+                                <h5 class="card-title fs-3 fw-bolder">Aven<span class="c-azul">ger</span></h5>
+                                <p class="card-text text-body fs-6 fst-italic">Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.</p>
                                 <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
 
                                 <div class="card__calificacion mx-2">
@@ -325,44 +328,44 @@
                     </h2>
 
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                        <<div class="accordion-body d-flex flex-column flex-lg-row">
-                            <div>
 
-                                <iframe width="320" src="https://www.youtube.com/embed/znk2OICHbjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="acordeon__footer accordion-body d-flex flex-column flex-lg-row">
+
+                            <div class="acordeon__footer my-auto">
+
+                                <iframe class="trailer__video" src="https://www.youtube.com/embed/znk2OICHbjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
 
-                            <div class="d-flex flex-column ps-5">
-                                <div>
-                                    <img width="300" src="../image/card-h-4.jpg" class="img-fluid rounded-start" alt="acordeonAvenger2">
-                                </div>
+                            <div class="acordeon__textoFooter d-flex flex-column ps-5">
 
-                                <div>
-                                    <h5>
-                                        Avenger
+                                <div class="fst-italic">
+                                    <h5 class=" fs-4 fw-bold">
+                                        Ave<span class="c-azul">nger</span>
                                     </h5>
 
                                     <p>
-                                        Duracion: xxxxxx
+                                        <span class="c-azul">Duracion:</span> 3 h 4 min 
                                     </p>
                                     <p>
-                                        Fecha de Estreno: xxxxxx
+                                        <span class="c-azul">Fecha de Estreno:</span> 2019
                                     </p>
                                     <p>
-                                        Género: xxxxxxx
+                                        <span class="c-azul">Género:</span> Ciencia ficción, Fantasía, Superhéroes, Acción y aventura
                                     </p>
                                     <p>
-                                        Dirigido por: xxxx
-                                    </p>
+                                        <span class="c-azul">Dirigido por:</span> Anthony Russo, Joe Russo
                                     <p>
-                                        Elenco: xxxxx
+                                        <span class="c-azul">Elenco:</span> Robert Downwy Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, Jeremy Renner
                                     </p>
                                 </div>
                                 
                             </div>
+
                         </div>
 
                     </div>
+
                 </div>
             
             </div>
@@ -488,6 +491,11 @@
             }
         }
         new Glide('.glide', config).mount()
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 

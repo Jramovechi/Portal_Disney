@@ -1,6 +1,48 @@
 /* Seccion lo mas visto */
 button div img {
-    width: 500px; }
+    width: 500px; 
+}
+
+.seccion__acordeon{
+    box-shadow: 0 0 32px -16px rgba(0, 0, 0, .5);
+}
+
+.acordeon__imgContenedor{
+    padding: 20px;
+    border: 1px $azul;
+    border-radius: 20px;
+    box-shadow: 0 0 32px -16px rgba(0, 0, 0, .5);
+    
+}
+
+.acordeon__img{
+    
+}
+
+
+.acordeon__texto{
+    // background-image: url(/image/backgroundAcordeon.jpg);
+    padding: 65px;
+    border: 1px $azul;
+    border-radius: 20px;
+    box-shadow: 0 0 32px -16px rgba(0, 0, 0, .5);
+}
+
+.acordeon__footer{
+    background-image: url(/image/backgroundAcordeon.jpg);
+}
+
+.acordeon__textoFooter{
+    width: 800px;
+    color: black;
+    background-color: $celesteClaro;
+    margin: auto;
+    border: 1px $azul;
+    border-radius: 20px;
+    box-shadow: 0 0 32px -16px rgba(0, 0, 0, .5);
+
+}
+
 
 /* Seccion Otras Peliculas */
 
