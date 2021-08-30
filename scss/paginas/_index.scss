@@ -7,6 +7,12 @@ main{
     max-width: 1600px;
     max-height: 100%;
 }
+
+.contenedor__fondoAnimado{
+    background-image: url(/image/fondoIndex.jpg);
+
+}
+
 /* Encabezado ------------------------*/
 
 /* Navegador */
@@ -48,6 +54,7 @@ nav a img{
     // height: 200px;
     @extend %boderShadow;
     position: relative;
+    background: white
 }
 .card__img{
     @include size(100%, 200px);
@@ -114,6 +121,10 @@ nav a img{
     font-weight: bold;
 }
 
+.novedades__cards{
+
+}
+
 /*efecti hover*/
 .novedades__article{
     @include size(280px, 320px);
@@ -146,7 +157,7 @@ nav a img{
 /* Banner LOGOS */
 
 /* Footer */
-footer{
+.contenedor__footer{
     width: 100%;
     background-image: url(/image/background-footer.svg);
 }

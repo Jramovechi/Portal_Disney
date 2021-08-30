@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <<title>Portal Disney - Contactame para más informacion</title>
+    <title>Portal Disney - Contactame para más informacion</title>
     <meta name="description" content="Contactame para más informacion">
     <meta name="keywords" content="DISNEY, DISNEY LATINO, FORMULARIO, CONTACTO, INFORMACION">
     
@@ -13,19 +13,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
 <body>
 
-    <main class="container-fluid bg-celesteClaro">
+    <main class="contenedor__fondoNovedades container-fluid bg-celesteClaro">
 
     <!-- ENCABEZADO ------------------->    
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
 
-                <div class="container">
+                <div class="container-fluid">
                     <a class="navbar-brand" href="./index.html"><img class="logoTipo" src="../image/disneylogo.png" alt="logoNav"></a>
 
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -110,7 +111,7 @@
 
             <div>
 
-                <img class="img__novedades" src="../image/novedadesD1.jpeg" class="img-fluid" alt="pagina1Novedades1">
+                <img class="img__novedades" src="../image/novedadesD1.jpeg" class="img-fluid" alt="pagina1Novedades1" data-aos="fade-right" data-aos-offset="420" data-aos-easing="ease-in-sine">
 
                 <h6 class="fst-italic">Reina Malvada de Blanca Nieves y los siete enanos</h6>
 
@@ -130,7 +131,7 @@
 
             <div>
 
-                <img class="img__novedades" src="../image/novededasD2.jpeg" class="img-fluid" alt="pagina1Novedades2">
+                <img class="img__novedades" src="../image/novededasD2.jpeg" class="img-fluid" alt="pagina1Novedades2" data-aos="fade-left" data-aos-offset="420" data-aos-easing="ease-in-sine">
 
                 <h6 class="fst-italic">
                     Eleanor Audley interpretó a la madrastra de Cenicienta y a Maléfica
@@ -156,7 +157,7 @@
 
             <div>
 
-                <img class="img__novedades" src="../image/hover-noticia-1.webp" class="img-fluid" alt="pagina1Novedades3">
+                <img class="img__novedades" src="../image/hover-noticia-1.webp" class="img-fluid" alt="pagina1Novedades3" data-aos="fade-right" data-aos-offset="420" data-aos-easing="ease-in-sine">
                 
                 <h6 class="fst-italic">
                     Marc Davis creó el look de Cruella De Vil
@@ -182,7 +183,7 @@
 
             <div>
 
-                <img class="img__novedades" src="../image/noticia1.webp" class="img-fluid" alt="pagina1Novedades4">
+                <img class="img__novedades" src="../image/noticia1.webp" class="img-fluid" alt="pagina1Novedades4" data-aos="fade-left" data-aos-offset="420" data-aos-easing="ease-in-sine">
 
                 <h6 class="fst-italic">
                     Scar fue creado por el animador Andreas Deja
@@ -211,7 +212,7 @@
     </div>
 
     <!-- Pie de pagína ------------------->
-        <footer>
+        <footer class="contenedor__footer">
             
             <div class="container-fluid">
 
@@ -260,6 +261,11 @@
     <script src="/js/wow.min.js"></script>
     <script>
     new WOW().init();
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
 

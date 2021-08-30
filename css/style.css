@@ -24,6 +24,10 @@
 .bg-azul {
   background-color: #6FBCEB; }
 
+main {
+  max-width: 1600px;
+  max-height: 100%; }
+
 /*MIXIN GENERICO*/
 /*BOTON GENERICO*/
 .boton, .boton__aRight, .boton__aLeft {
@@ -64,6 +68,9 @@ main {
   max-width: 1600px;
   max-height: 100%; }
 
+.contenedor__fondoAnimado {
+  background-image: url(/image/fondoIndex.jpg); }
+
 /* Encabezado ------------------------*/
 /* Navegador */
 nav a img {
@@ -98,7 +105,8 @@ nav a img {
 /* Seccion Lo más visto */
 /*CARDS*/
 .contenedor__card {
-  position: relative; }
+  position: relative;
+  background: white; }
 
 .card__img {
   width: 100%;
@@ -185,13 +193,17 @@ nav a img {
 
 /* Banner LOGOS */
 /* Footer */
-footer {
+.contenedor__footer {
   width: 100%;
   background-image: url(/image/background-footer.svg); }
 
 .iconos__footer {
   font-size: 28px;
   color: #6FBCEB; }
+
+main {
+  max-width: 1600px;
+  max-height: 100%; }
 
 /* Seccion lo mas visto */
 button div img {
@@ -236,6 +248,13 @@ button div img {
   width: 320px;
   height: 400px;
   object-fit: fill; }
+
+main {
+  max-width: 1600px;
+  max-height: 100%; }
+
+.contenedor__fondoNovedades {
+  background-image: url(/image/fondoIndex.jpg); }
 
 /*Imagenes con efecto HOVER*/
 .contenedor__fondo {
@@ -321,3 +340,13 @@ button div img {
 
 .img__novedades {
   width: 100%; }
+
+main {
+  max-width: 1600px;
+  max-height: 100%; }
+
+.contenedor__contacto {
+  background-image: url(/image/backgroundAcordon3.jpg); }
+
+.contenedor__form {
+  background-color: white; }
