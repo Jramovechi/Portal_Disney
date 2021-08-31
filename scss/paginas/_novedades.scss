@@ -3,6 +3,8 @@ main{
     max-height: 100%;
 }
 
+/*FONDO*/
+
 .contenedor__fondoNovedades{
     background-image: url(/image/fondoIndex.jpg);
 }
@@ -19,7 +21,6 @@ main{
     justify-content: center;
     align-items: center;
 }
-
 .hover__figure{
     position: relative;
     @include size(70%, 600px);
@@ -27,7 +28,6 @@ main{
     @extend %boderShadow;
     cursor: pointer;
 }
-
 .hover__img{
     width: 100%;
     height: 100%;
@@ -43,7 +43,6 @@ main{
     visibility: hidden;
     text-align: center;
 }
-
 .hover__figure:hover > .hover__capa{
     opacity: 1;
     visibility: visible;
@@ -71,18 +70,14 @@ main{
     letter-spacing: 1px;
     transition: all 500ms ease-out;
 }
-
 .contenedor__hover--doble{
     @include size(45%, 200px);
-
 }
 .hover__figure--doble{
     @include size(600px, 300px);
 }
-
 .contenedor__hover--triple{
     height: 400px;
-
 }
 .hover__figure--triple{
     @include size(600px, 350px);
@@ -96,9 +91,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
-
 .img__novedades{
     width: 100%;
 }

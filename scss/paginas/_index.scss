@@ -8,9 +8,9 @@ main{
     max-height: 100%;
 }
 
+/*Fondo INDEX*/
 .contenedor__fondoAnimado{
     background-image: url(/image/fondoIndex.jpg);
-
 }
 
 /* Encabezado ------------------------*/
@@ -39,7 +39,7 @@ nav a img{
 }
 /* Cuerpo ---------------------------- */
 
-/* Seccion Portada */
+/* Sección Portada */
 
 /* Carrusel */
 #imgCarrusel img{
@@ -47,9 +47,10 @@ nav a img{
     margin-top: 20px;
 }
 
-/* Seccion Lo más visto */
+/* Sección Lo más visto */
 
-/*CARDS*/
+/* CARDS en lo más visto */
+
 .contenedor__card{
     // height: 200px;
     @extend %boderShadow;
@@ -59,7 +60,6 @@ nav a img{
 .card__img{
     @include size(100%, 200px);
 }
-
 .card__textos{
     text-align: center;
     display: flex;
@@ -72,22 +72,22 @@ nav a img{
 .card__calificacion{
     display: flex;
     justify-content: center;
-    
 }
-/* Seccion Aside */
+
+/* Sección Aside lo más visto */
 
 .contenedor__gif--Mickey{
     background-image: url(/image/logoDisney2.gif);
     background-repeat:no-repeat;
     background-position: right;
-
 }
 .contenedor__gif--Minnie{
     background-image: url(/image/logoMinnie.gif);
     background-repeat:no-repeat;
     background-position: left;
 }
-/*TEXTOS*/
+/* TITULO Sección Trailer  */
+
 .trailer__textos{
     text-align: center;
     margin-top: 30px;
@@ -113,7 +113,8 @@ nav a img{
     
 }
 
-/* Seccion Noticias */
+/* Sección Noticias */
+
 .novedades__separador{
     margin-bottom: 10px;
 }
@@ -121,11 +122,8 @@ nav a img{
     font-weight: bold;
 }
 
-.novedades__cards{
+/* Efecto Hover CARD NOTICIAS */
 
-}
-
-/*efecti hover*/
 .novedades__article{
     @include size(280px, 320px);
     display: flex;
@@ -154,9 +152,8 @@ nav a img{
     align-items: center;
 }
 
-/* Banner LOGOS */
-
 /* Footer */
+
 .contenedor__footer{
     width: 100%;
     background-image: url(/image/background-footer.svg);

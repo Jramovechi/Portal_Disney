@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Nuestro SEO -->
+
     <title>Portal Disney - Contactame para más informacion</title>
     <meta name="description" content="Contactame para más informacion">
     <meta name="keywords" content="DISNEY, DISNEY LATINO, FORMULARIO, CONTACTO, INFORMACION">
     
-    <link rel="icon" href="../image/iconojpg.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Librerias Utilizadas -->
+
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -17,23 +20,41 @@
     <link rel="stylesheet" href="../css/glide.theme.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+    <!-- Nuestro CSS -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="../image/iconojpg.jpg">
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
+
+<!-- Cuerpo del HTML -->
+
 <body>
+
+    <!-- Contenedor MAIN con FONDO -->
 
     <main class="contenedor__fondoAnimado container-fluid bg-celesteClaro">
 
-    <!-- ENCABEZADO ------------------->    
+    <!-- ENCABEZADO -------------------> 
+    
         <header>
+
+            <!-- NAVEGADOR -->
+
             <nav class="navbar navbar-expand-lg navbar-light">
 
                 <div class="container-fluid">
+
+                    <!-- LOGO NAV -->
+
                     <a class="navbar-brand" href="./index.html"><img class="logoTipo" src="../image/disneylogo.png" alt="logoNav"></a>
 
                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
+                    <!-- ENLACES -->
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     
@@ -61,8 +82,12 @@
                             
                         </ul>
 
+                        <!-- BUSCADOR NAV -->
+
                         <div class="box  w-25 d-none d-lg-inline">
+
                             <input class="box__buscador" type="text" placeholder="Buscar" autocomplete="off">
+                        
                         </div>
 
                     </div>
@@ -76,23 +101,31 @@
     <!-- CUERPO ----------------------->
 
 
-        <!-- Seccion Acordeon Primaria -->
+        <!-- Sección Acordeon  -->
 
         <section>
 
             <div class="seccion__acordeon accordion" id="accordionExample">
 
+                <!-- ACORDEON 1ro -->
+
                 <div class="contenedor__acordeon accordion-item col-12 col-lg-12">
+
+                    <!-- CUERPO ADCORDEON 1ro -->
 
                     <h2 class="acordeon__body accordion-header" id="headingOne">
 
                         <button class="acordeon__header accordion-button d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             
+                            <!-- IMG -->
+
                             <div class="acordeon__imgContenedor" data-aos="fade-right" data-aos-duration="1000">
 
                                 <img class="acordeon__img img-fluid" src="../image/card-h-5.jpg" class="img-fluid rounded-start" alt="acordeonFrozen">
 
                             </div>
+
+                            <!-- TEXTO -->
 
                             <div class="acordeon__texto d-none d-lg-flex flex-column justify-content-between align-items-center c-negro mx-5" data-aos="fade-left" data-aos-duration="1000">
 
@@ -100,6 +133,8 @@
                                 <p class="card-text text-body fs-6 fst-italic">Viaja a los bosques embrujados y los mares oscuros que se extienden más allá de los límites de su reino para descubrir quién es en realidad.</p>
                                 <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
                                 
+                                <!-- Iconos VALORACIÓN -->
+
                                 <div class="card__calificacion mx-2">
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
@@ -114,15 +149,21 @@
 
                     </h2>
 
+                    <!-- FOOTER ADCORDEON 1ro -->
+
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">                            
                             
                         <div class="acordeon__footer accordion-body d-flex">
+
+                            <!-- VIDEO -->
                                 
                             <div class="acordeon__footer d-none d-lg-flex my-auto">
 
                                 <iframe class="trailer__video" src="https://www.youtube.com/embed/MrvnCTpMFkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
+
+                            <!-- TEXTO -->
 
                             <div class="acordeon__textoFooter d-flex flex-column ps-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000">
@@ -157,17 +198,25 @@
 
                 </div>
 
+                <!-- ACORDEON 2do -->
+
                 <div class="contenedor__acordeon accordion-item col-12 col-lg-12">
+
+                    <!-- CUERPO ADCORDEON 2do -->
                     
                     <h2 class="acordeon__body accordion-header" id="headingTwo">
                         
                         <button class="acordeon__header accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             
+                            <!-- IMG -->
+
                             <div class="acordeon__imgContenedor" data-aos="fade-right" data-aos-duration="1000">
 
                                 <img class="acordeon__img img-fluid" src="../image/card-h-2.jpg" class="img-fluid rounded-start" alt="acordeonStarWars">
 
                             </div>
+
+                            <!-- TEXTO -->
                         
                             <div class="acordeon__texto d-none d-lg-flex flex-column justify-content-between align-items-center c-negro mx-5" data-aos="fade-left" data-aos-duration="1000">
 
@@ -177,6 +226,8 @@
                                 
                                 <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
                             
+                                <!-- Iconos VALORACIÓN -->
+
                                 <div class="card__calificacion mx-2">
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
@@ -191,15 +242,21 @@
 
                     </h2>
 
+                    <!-- FOOTER ADCORDEON 2do -->
+
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         
                         <div class="acordeon__footer accordion-body d-flex">
+
+                            <!-- VIDEO -->
 
                             <div class="acordeon__footer d-none d-lg-flex my-auto">
 
                                 <iframe class="trailer__video" src="https://www.youtube.com/embed/x7nKsvvsSto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
+
+                            <!-- TEXTO -->
 
                             <div class="acordeon__textoFooter d-flex flex-column ps-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000">
@@ -235,11 +292,17 @@
 
                 </div>
 
+                <!-- ACORDEON 3er -->
+
                 <div class="contenedor__acordeon accordion-item">
+
+                    <!-- CUERPO ADCORDEON 3er -->
                     
                     <h2 class="acordeon__body accordion-header" id="headingThree">
 
                         <button class="acordeon__header accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            
+                            <!-- IMG -->
                             
                             <div class="acordeon__imgContenedor" data-aos="fade-right" data-aos-duration="1000">
 
@@ -247,6 +310,8 @@
 
                             </div>
 
+                            <!-- TEXTO -->
+                            
                             <div class="acordeon__texto d-none d-lg-flex flex-column justify-content-between align-items-center c-negro mx-5" data-aos="fade-left" data-aos-duration="1000">
                                 
                                 <h5 class="card-title fs-3 fw-bolder">Moster <span class="c-azul">Inc</span></h5>
@@ -255,6 +320,8 @@
 
                                 <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
                             
+                                <!-- Iconos VALORACIÓN -->
+                                
                                 <div class="card__calificacion mx-2">
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
@@ -269,15 +336,21 @@
 
                     </h2>
 
+                    <!-- FOOTER ADCORDEON 3er -->
+
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         
                         <div class="acordeon__footer accordion-body d-flex">
+
+                            <!-- VIDEO -->
                         
                             <div class="acordeon__footer d-none d-lg-flex my-auto">
 
                                 <iframe class="trailer__video" src="https://www.youtube.com/embed/6-hRvF7suLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
+
+                            <!-- TEXTO -->
 
                             <div class="acordeon__textoFooter d-flex flex-column ps-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000">
@@ -311,17 +384,25 @@
 
                 </div>
 
+                <!-- ACORDEON 4to -->
+
                 <div class="contenedor__acordeon accordion-item">
+
+                    <!-- CUERPO ADCORDEON 3er -->
                     
                     <h2 class="acordeon__body accordion-header" id="headingFour">
                         
                         <button class="acordeon__header accordion-button collapsed d-flex flex-column flex-lg-row" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         
+                            <!-- IMG -->
+                            
                             <div class="acordeon__imgContenedor" data-aos="fade-right" data-aos-duration="1000">
 
                                 <img class="acordeon__img img-fluid" src="../image/card-h-4.jpg" class="img-fluid rounded-start" alt="acordeonAvenger">
                             
                             </div>
+
+                            <!-- TEXTO -->
 
                             <div class="acordeon__texto d-none d-lg-flex flex-column justify-content-between align-items-center c-negro mx-5" data-aos="fade-left" data-aos-duration="1000">
 
@@ -330,6 +411,8 @@
                                 <p class="card-text text-body fs-6 fst-italic">Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.</p>
                                 <p class="card-text"><small class="text-muted">1 de Agosto de 2021</small></p>
 
+                                <!-- Iconos VALORACIÓN -->
+                                
                                 <div class="card__calificacion mx-2">
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
                                     <span class="c-azul"><i class="bi bi-star-fill mx-1"></i></span>
@@ -338,22 +421,27 @@
                                     <span class="c-azul"><i class="bi bi-star mx-1"></i></span>
                                 </div>
                             
-                            
                             </div>
 
                         </button>
                         
                     </h2>
 
+                    <!-- FOOTER ADCORDEON 3er -->
+
                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
 
                         <div class="acordeon__footer accordion-body d-flex">
+
+                            <!-- VIDEO -->
 
                             <div class="acordeon__footer d-none d-lg-flex my-auto">
 
                                 <iframe class="trailer__video" src="https://www.youtube.com/embed/znk2OICHbjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                             </div>
+
+                            <!-- TEXTO -->
 
                             <div class="acordeon__textoFooter d-flex flex-column ps-5" data-aos="flip-left" data-aos-easing="ease-out-cubic"
                             data-aos-duration="2000">
@@ -391,9 +479,11 @@
 
         </section>
         
-        <!-- Seccion Carrusel Secundaria -->
+        <!-- Sección Carrusel -->
 
         <section class="row d-none d-lg-flex">
+
+            <!-- TITULO -->
 
             <div class="col-12 col-lg-12 mt-5">
 
@@ -403,11 +493,13 @@
 
             </div>
             
-            <!-- Seccion Carrusel GLIDE JS -->
+            <!-- Carrusel GLIDE JS -->
 
             <div class="glidContainer col-12 col-lg-12 d-flex flex-column flex-lg-row">
                 
                 <div class="glide col-12 col-lg-12">
+                    
+                    <!-- IMGS -->
                     
                     <div class="glide__track" data-glide-el="track">
                         
@@ -425,6 +517,8 @@
                     
                     </div>
 
+                    <!-- BOTONES -->
+
                     <div class="glide__arrows" data-glide-el="controls">
                         
                         <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
@@ -441,6 +535,7 @@
 
 
     <!-- Pie de pagína ------------------->
+
         <footer class="contenedor__footer">
             
             <div class="container-fluid">
@@ -456,6 +551,8 @@
                         <p class="col12 text-center c-azul">JonathanLain.R@HotMail.Com</p>
                     
                     </div>
+
+                    <!-- Contenedor REDES SOCIALES -->
 
                     <div class="col-12 col-lg-4 d-flex flex-column justify-content-lg-center">
                         
@@ -477,12 +574,13 @@
                 
                 </div>
 
-
             </div>               
             
         </footer>    
 
     </main>
+
+    <!-- SCRIPTS DE LIBRERIAS -->
 
     <script src="../js/bootstrap.bundle.min.js"></script>
     
@@ -513,8 +611,6 @@
     <script>
         AOS.init();
     </script>
-
-
 
 
 </body>
