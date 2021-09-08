@@ -13,4 +13,5 @@ main{
 /*Fondo de Formulario*/
 .contenedor__form{
     background-color: white;
+    @extend %boderShadow;
 }

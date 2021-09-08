@@ -19,8 +19,8 @@ button div img {
     border: 1px $azul;
     border-radius: 20px;
     box-shadow: 0 0 32px -16px rgba(0, 0, 0, .5);
-    
 }
+
 .acordeon__texto{
     // background-image: url(/image/backgroundAcordeon.jpg);
     padding: 65px;
@@ -51,7 +51,18 @@ button div img {
     padding: 15px;
 }
 .glidContainer div ul li img{
-    @include size(380px, 400px);
+    @include size(300px, 400px);
     object-fit:fill;
+}
 
+.glide__slide{
+    margin-left: 40px;
+}
+
+.glide__arrow--left{
+    margin-left: 40px;
+}
+
+.glide__arrow--right{
+    margin-right: 40px;
 }

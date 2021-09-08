@@ -56,7 +56,7 @@ main {
   bottom: -20px; }
 
 /*BORDES GENERICO*/
-.contenedor__card, .trailer__video, .novedades__article, .hover__figure {
+.contenedor__card, .trailer__video, .novedades__article, .hover__figure, .contenedor__form {
   border-radius: 20px;
   box-shadow: 0 0 32px -16px rgba(0, 0, 0, 0.5); }
 
@@ -247,9 +247,18 @@ button div img {
   padding: 15px; }
 
 .glidContainer div ul li img {
-  width: 380px;
+  width: 300px;
   height: 400px;
   object-fit: fill; }
+
+.glide__slide {
+  margin-left: 40px; }
+
+.glide__arrow--left {
+  margin-left: 40px; }
+
+.glide__arrow--right {
+  margin-right: 40px; }
 
 main {
   max-width: 1600px;
